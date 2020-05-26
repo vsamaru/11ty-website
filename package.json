@@ -4,7 +4,7 @@
   "description": "The website of 11ty.dev",
   "main": "_site/index.html",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "assets": "cp node_modules/@11ty/logo/logo.png .",
