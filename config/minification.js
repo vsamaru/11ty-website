@@ -1,7 +1,6 @@
 const htmlmin = require("html-minifier");
 const CleanCSS = require("clean-css");
 const Terser = require("terser");
-
 module.exports = eleventyConfig => {
 	eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
 		if( process.env.ELEVENTY_PRODUCTION && outputPath && outputPath.endsWith(".html") ) {
